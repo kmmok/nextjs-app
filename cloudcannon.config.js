@@ -18,19 +18,19 @@ module.exports = {
 
   // Populates the sidebar navigation and provides metadata for the editor
   collections_config: {
-    people: {
+    //people: {
       // Reads the contents of each file in this directory
-      path: 'content/people',
+      //path: 'content/people',
 
       // The URL template for items in this collection
-      url: '/people/{department|slugify}/[slug]/',
+      //url: '/people/{department|slugify}/[slug]/',
 
       // Tells CloudCannon this collection produces output files
-      output: true
+      //output: true
 
       // CloudCannon collection-level configuration
-      name: 'Personnel',
-      _enabled_editors: ['data']
+      //name: 'Personnel',
+      //_enabled_editors: ['data']
     },
     posts: {
       // Reads the contents of each file in this directory
@@ -77,15 +77,5 @@ module.exports = {
   },
 
   // Generates the data for select and multiselect inputs matching these names
-  data_config: {
-    authors: {
-      // Reads the contents of this file
-      path: 'data/authors.csv'
-    },
-    offices: {
-      // Reads the contents of each file in this directory
-      path: 'data/offices',
-      parser: 'json'
-    }
-  }
+
 };
