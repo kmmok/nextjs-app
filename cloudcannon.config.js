@@ -34,7 +34,7 @@ module.exports = {
     //},
     posts: {
       // Reads the contents of each file in this directory
-      path: '_posts',
+      path: 'posts',
 
       // How to parse the files in this collection
       parser: 'front-matter',
@@ -51,7 +51,7 @@ module.exports = {
     },
     pages: {
       // Tells CloudCannon to navigate to this path for this collection
-      path: '',
+      path: 'pages',
 
       // Reads the contents of each file for this pattern (takes priority over path)
       glob: ['**/*.md', './src/pages/*.html'],
