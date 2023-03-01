@@ -74,8 +74,7 @@ module.exports = {
         return { ...data, slug };
       }
     }
-  },
+  }
 
   // Generates the data for select and multiselect inputs matching these names
-
 };
