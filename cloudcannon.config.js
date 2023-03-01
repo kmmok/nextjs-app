@@ -31,7 +31,7 @@ module.exports = {
       // CloudCannon collection-level configuration
       //name: 'Personnel',
       //_enabled_editors: ['data']
-    },
+    //},
     posts: {
       // Reads the contents of each file in this directory
       path: '_posts',
